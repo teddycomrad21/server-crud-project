@@ -6,11 +6,8 @@ import router from './router.js';
 
 dotenv.config({ path: '.env' })
 
-
 // eslint-disable-next-line
 const DB_URL = process.env.DB_URL;
-
-console.log(DB_URL);
 
 const app = express();
 
